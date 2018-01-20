@@ -1,0 +1,324 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F26K22 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"38 C:\Users\Monster\MPLABXProjects\serialtemiz.X\serialtemiz.c
+[v _main main `(v  1 e 1 0 ]
+"138
+[v _OscTune OscTune `(v  1 e 1 0 ]
+"147
+[v _SerialInit SerialInit `(v  1 e 1 0 ]
+"172
+[v _led_init led_init `(v  1 e 1 0 ]
+"178
+[v _timer_init timer_init `(v  1 e 1 0 ]
+"188
+[v _receive receive `II(v  1 e 1 0 ]
+"215
+[v _return_n_before return_n_before `(uc  1 e 1 0 ]
+"95 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic18f26k22.h
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"4180
+[v _BAUDCON2 BAUDCON2 `VEuc  1 e 1 @3952 ]
+"4442
+[v _RCSTA2 RCSTA2 `VEuc  1 e 1 @3953 ]
+[s S259 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4487
+[s S268 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S271 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+[s S280 . 1 `uc 1 RCD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S284 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[u S287 . 1 `S259 1 . 1 0 `S268 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 `S284 1 . 1 0 ]
+[v _RCSTA2bits RCSTA2bits `VES287  1 e 1 @3953 ]
+"4730
+[v _TXSTA2 TXSTA2 `VEuc  1 e 1 @3954 ]
+[s S41 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4767
+[s S50 . 1 `uc 1 TX9D2 1 0 :1:0 
+`uc 1 TRMT2 1 0 :1:1 
+`uc 1 BRGH2 1 0 :1:2 
+`uc 1 SENDB2 1 0 :1:3 
+`uc 1 SYNC2 1 0 :1:4 
+`uc 1 TXEN2 1 0 :1:5 
+`uc 1 TX92 1 0 :1:6 
+`uc 1 CSRC2 1 0 :1:7 
+]
+[s S59 . 1 `uc 1 TXD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_92 1 0 :1:6 
+]
+[u S63 . 1 `S41 1 . 1 0 `S50 1 . 1 0 `S59 1 . 1 0 ]
+[v _TXSTA2bits TXSTA2bits `VES63  1 e 1 @3954 ]
+"4982
+[v _TXREG2 TXREG2 `VEuc  1 e 1 @3955 ]
+"5020
+[v _RCREG2 RCREG2 `VEuc  1 e 1 @3956 ]
+"5058
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3957 ]
+"5096
+[v _SPBRGH2 SPBRGH2 `VEuc  1 e 1 @3958 ]
+"6836
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S98 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"7493
+[s S107 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S116 . 1 `S98 1 . 1 0 `S107 1 . 1 0 ]
+[v _LATCbits LATCbits `VES116  1 e 1 @3979 ]
+[s S219 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"7832
+[s S228 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S237 . 1 `S219 1 . 1 0 `S228 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES237  1 e 1 @3987 ]
+"8022
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S192 . 1 `uc 1 TUN 1 0 :6:0 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"8285
+[s S196 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+`uc 1 TUN5 1 0 :1:5 
+]
+[u S203 . 1 `S192 1 . 1 0 `S196 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES203  1 e 1 @3995 ]
+[s S376 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 TMR3GIE 1 0 :1:1 
+`uc 1 TMR5GIE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+`uc 1 TX2IE 1 0 :1:4 
+`uc 1 RC2IE 1 0 :1:5 
+`uc 1 BCL2IE 1 0 :1:6 
+`uc 1 SSP2IE 1 0 :1:7 
+]
+"9134
+[s S385 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S391 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S396 . 1 `S376 1 . 1 0 `S385 1 . 1 0 `S391 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES396  1 e 1 @4003 ]
+[s S449 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 TMR5GIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 BCL2IF 1 0 :1:6 
+`uc 1 SSP2IF 1 0 :1:7 
+]
+"9237
+[s S458 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S463 . 1 `S449 1 . 1 0 `S458 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES463  1 e 1 @4004 ]
+[s S171 . 1 `uc 1 LFIOFS 1 0 :1:0 
+`uc 1 MFIOFS 1 0 :1:1 
+`uc 1 PRISD 1 0 :1:2 
+`uc 1 SOSCGO 1 0 :1:3 
+`uc 1 MFIOSEL 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SOSCRUN 1 0 :1:6 
+`uc 1 PLLRDY 1 0 :1:7 
+]
+"15207
+[u S180 . 1 `S171 1 . 1 0 ]
+[v _OSCCON2bits OSCCON2bits `VES180  1 e 1 @4050 ]
+[s S139 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 HFIOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"15270
+[s S145 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S153 . 1 `S139 1 . 1 0 `S145 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES153  1 e 1 @4051 ]
+[s S422 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"15350
+[s S429 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S433 . 1 `S422 1 . 1 0 `S429 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES433  1 e 1 @4053 ]
+"15407
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S327 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16159
+[s S336 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S345 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S349 . 1 `S327 1 . 1 0 `S336 1 . 1 0 `S345 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES349  1 e 1 @4082 ]
+"29 C:\Users\Monster\MPLABXProjects\serialtemiz.X\serialtemiz.c
+[v _timeTick timeTick `ul  1 e 4 0 ]
+[s S21 Serial_Ops 29 `[25]uc 1 command 25 0 `i 1 wr_index 2 25 `i 1 rd_index 2 27 ]
+"36
+[v _com7 com7 `S21  1 e 29 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+{
+"136
+} 0
+"178
+[v _timer_init timer_init `(v  1 e 1 0 ]
+{
+"186
+} 0
+"215
+[v _return_n_before return_n_before `(uc  1 e 1 0 ]
+{
+[v return_n_before@array array `*.39uc  1 p 2 18 ]
+[v return_n_before@position position `i  1 p 2 20 ]
+[v return_n_before@n n `ui  1 p 2 22 ]
+"225
+} 0
+"172
+[v _led_init led_init `(v  1 e 1 0 ]
+{
+"176
+} 0
+"147
+[v _SerialInit SerialInit `(v  1 e 1 0 ]
+{
+"170
+} 0
+"138
+[v _OscTune OscTune `(v  1 e 1 0 ]
+{
+"145
+} 0
+"188
+[v _receive receive `II(v  1 e 1 0 ]
+{
+"213
+} 0
